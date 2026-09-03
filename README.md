@@ -31,27 +31,17 @@ Redis tabanlı dağıtık durum yönetimi, çok bölgeli dağıtım.
 
 ## Kullandıklarım
 
-<div align="center">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://skillicons.dev/icons?i=flutter,dart,ts,nestjs,nodejs,nextjs,react&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=flutter,dart,ts,nestjs,nodejs,nextjs,react&theme=light">
-  <img alt="Flutter, Dart, TypeScript, NestJS, Node.js, Next.js, React" src="https://skillicons.dev/icons?i=flutter,dart,ts,nestjs,nodejs,nextjs,react&theme=dark">
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img alt="Flutter, Dart, TypeScript, NestJS, Node.js, Next.js, React, Redis, MongoDB, Socket.IO, Docker, Cloudflare, Go, Firebase" src="./assets/stack-dark.svg" width="100%">
 </picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://skillicons.dev/icons?i=redis,mongodb,socketio,docker,cloudflare,go,firebase&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=redis,mongodb,socketio,docker,cloudflare,go,firebase&theme=light">
-  <img alt="Redis, MongoDB, Socket.IO, Docker, Cloudflare, Go, Firebase" src="https://skillicons.dev/icons?i=redis,mongodb,socketio,docker,cloudflare,go,firebase&theme=dark">
-</picture>
-
-</div>
 
 <br>
 
 ## Seçilmiş işler
 
-| | |
+| Depo | Ne |
 |---|---|
 | [**peopler**](https://github.com/berkeugur/peopler) | Aynı ortamdaki insanların takma kimlikle tanışmasını sağlayan iOS uygulaması. Dört kişilik ekiple kurduk, App Store'a çıkardık. Mobil tarafı ben yazdım — Flutter, 317 commit. Sonlandırıldı, kaynak açık. |
 | [**backdart**](https://github.com/berkeugur/backdart) | Dart ile arka uç denemesi. |
@@ -77,7 +67,8 @@ Daha fazlası ve yazdıklarım: **[berkeugur.com](https://berkeugur.com)**
   <img alt="En çok kullandığım diller" src="./assets/langs-dark.svg" width="49%">
 </picture>
 
-<sub>Kartlar <code>scripts/gen_cards.py</code> ile GitHub API'sinden üretiliyor — hazır kart servisine bağlı değil.</sub>
+<sub>Dil dağılımı yalnızca açık, fork olmayan depolardan; işteki çalışmam özel depolarda.<br>
+Kartlar <code>scripts/gen_cards.py</code> ile GitHub API'sinden üretiliyor — hazır kart servisine bağlı değil.</sub>
 
 <br><br>
 
