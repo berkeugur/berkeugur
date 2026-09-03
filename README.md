@@ -67,15 +67,17 @@ Daha fazlası ve yazdıklarım: **[berkeugur.com](https://berkeugur.com)**
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api?username=berkeugur&show_icons=true&include_all_commits=true&rank_icon=github&bg_color=0B0906&title_color=FFB000&text_color=EDE6D8&icon_color=FFB000&border_color=4A3A14&border_radius=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=berkeugur&show_icons=true&include_all_commits=true&rank_icon=github&bg_color=F6F1E6&title_color=B4520A&text_color=1A1712&icon_color=B4520A&border_color=1A1712&border_radius=2">
-  <img alt="GitHub istatistikleri" height="170" src="https://github-readme-stats.vercel.app/api?username=berkeugur&show_icons=true&include_all_commits=true&rank_icon=github&bg_color=0B0906&title_color=FFB000&text_color=EDE6D8&icon_color=FFB000&border_color=4A3A14&border_radius=2">
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg">
+  <img alt="İstatistikler" src="./assets/stats-dark.svg" width="49%">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=berkeugur&layout=compact&langs_count=8&bg_color=0B0906&title_color=FFB000&text_color=EDE6D8&border_color=4A3A14&border_radius=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=berkeugur&layout=compact&langs_count=8&bg_color=F6F1E6&title_color=B4520A&text_color=1A1712&border_color=1A1712&border_radius=2">
-  <img alt="En çok kullandığım diller" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=berkeugur&layout=compact&langs_count=8&bg_color=0B0906&title_color=FFB000&text_color=EDE6D8&border_color=4A3A14&border_radius=2">
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/langs-light.svg">
+  <img alt="En çok kullandığım diller" src="./assets/langs-dark.svg" width="49%">
 </picture>
+
+<sub>Kartlar <code>scripts/gen_cards.py</code> ile GitHub API'sinden üretiliyor — hazır kart servisine bağlı değil.</sub>
 
 <br><br>
 
@@ -83,14 +85,6 @@ Daha fazlası ve yazdıklarım: **[berkeugur.com](https://berkeugur.com)**
   <source media="(prefers-color-scheme: dark)"  srcset="https://streak-stats.demolab.com?user=berkeugur&background=0B0906&border=4A3A14&stroke=4A3A14&ring=FFB000&fire=FFB000&currStreakLabel=FFB000&currStreakNum=EDE6D8&sideLabels=EDE6D8&sideNums=EDE6D8&dates=9E9486&border_radius=2">
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=berkeugur&background=F6F1E6&border=1A1712&stroke=1A1712&ring=B4520A&fire=B4520A&currStreakLabel=B4520A&currStreakNum=1A1712&sideLabels=1A1712&sideNums=1A1712&dates=6B6255&border_radius=2">
   <img alt="Katkı serisi" height="170" src="https://streak-stats.demolab.com?user=berkeugur&background=0B0906&border=4A3A14&stroke=4A3A14&ring=FFB000&fire=FFB000&currStreakLabel=FFB000&currStreakNum=EDE6D8&sideLabels=EDE6D8&sideNums=EDE6D8&dates=9E9486&border_radius=2">
-</picture>
-
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-activity-graph.vercel.app/graph?username=berkeugur&bg_color=0B0906&color=EDE6D8&title_color=FFB000&line=FFB000&point=FFB000&area=true&area_color=FFB000&border_color=4A3A14&radius=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=berkeugur&bg_color=F6F1E6&color=1A1712&title_color=B4520A&line=B4520A&point=B4520A&area=true&area_color=B4520A&border_color=1A1712&radius=2">
-  <img alt="Katkı grafiği" src="https://github-readme-activity-graph.vercel.app/graph?username=berkeugur&bg_color=0B0906&color=EDE6D8&title_color=FFB000&line=FFB000&point=FFB000&area=true&area_color=FFB000&border_color=4A3A14&radius=2">
 </picture>
 
 </div>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250" width="500" height="250" role="img" aria-label="İSTATİSTİK">
+  <title>İSTATİSTİK</title>
+  <defs><style>
+    .mono { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .fade { opacity: 0; animation: fade .55s ease-out forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .fade { opacity: 1; animation: none; } }
+</style></defs>
+  <rect width="500" height="250" fill="#EDE6D8"/>
+  <rect x="6" y="6" width="490" height="240" fill="#1A1712"/>
+  <rect x="2" y="2" width="490" height="240" fill="#F6F1E6" stroke="#1A1712" stroke-width="1.25"/>
+  <rect x="2" y="2" width="490" height="28" fill="#E4DBC9"/>
+  <line x1="2" y1="30" x2="492" y2="30" stroke="#1A1712" stroke-width="1.25"/>
+  <rect x="20" y="12" width="8" height="8" fill="#B4520A"/>
+  <text class="mono" x="38" y="21" font-size="12" letter-spacing="2.4" fill="#B4520A">İSTATİSTİK</text>
+  <text class="mono" x="474" y="21" font-size="12" letter-spacing="1.6" fill="#6B6255" text-anchor="end">02</text>
+    <g class="fade" style="animation-delay:0.25s"><rect x="20" y="49" width="6" height="6" fill="#B4520A" opacity=".8"/><text class="mono" x="38" y="58" font-size="13" fill="#6B6255">Katkı (12 ay)</text><text class="mono" x="470" y="58" font-size="13.5" font-weight="700" fill="#1A1712" text-anchor="end">3.377</text><line x1="38" y1="65" x2="470" y2="65" stroke="#1A1712" stroke-width="1" opacity=".45"/></g>
+    <g class="fade" style="animation-delay:0.34s"><rect x="20" y="75" width="6" height="6" fill="#B4520A" opacity=".8"/><text class="mono" x="38" y="84" font-size="13" fill="#6B6255">Commit</text><text class="mono" x="470" y="84" font-size="13.5" font-weight="700" fill="#1A1712" text-anchor="end">41</text><line x1="38" y1="91" x2="470" y2="91" stroke="#1A1712" stroke-width="1" opacity=".45"/></g>
+    <g class="fade" style="animation-delay:0.43s"><rect x="20" y="101" width="6" height="6" fill="#B4520A" opacity=".8"/><text class="mono" x="38" y="110" font-size="13" fill="#6B6255">Pull request</text><text class="mono" x="470" y="110" font-size="13.5" font-weight="700" fill="#1A1712" text-anchor="end">4</text><line x1="38" y1="117" x2="470" y2="117" stroke="#1A1712" stroke-width="1" opacity=".45"/></g>
+    <g class="fade" style="animation-delay:0.52s"><rect x="20" y="127" width="6" height="6" fill="#B4520A" opacity=".8"/><text class="mono" x="38" y="136" font-size="13" fill="#6B6255">Özel depo katkısı</text><text class="mono" x="470" y="136" font-size="13.5" font-weight="700" fill="#1A1712" text-anchor="end">3.328</text><line x1="38" y1="143" x2="470" y2="143" stroke="#1A1712" stroke-width="1" opacity=".45"/></g>
+    <g class="fade" style="animation-delay:0.61s"><rect x="20" y="153" width="6" height="6" fill="#B4520A" opacity=".8"/><text class="mono" x="38" y="162" font-size="13" fill="#6B6255">Yıldız</text><text class="mono" x="470" y="162" font-size="13.5" font-weight="700" fill="#1A1712" text-anchor="end">6</text><line x1="38" y1="169" x2="470" y2="169" stroke="#1A1712" stroke-width="1" opacity=".45"/></g>
+    <g class="fade" style="animation-delay:0.70s"><rect x="20" y="179" width="6" height="6" fill="#B4520A" opacity=".8"/><text class="mono" x="38" y="188" font-size="13" fill="#6B6255">Açık depo</text><text class="mono" x="470" y="188" font-size="13.5" font-weight="700" fill="#1A1712" text-anchor="end">10</text><line x1="38" y1="195" x2="470" y2="195" stroke="#1A1712" stroke-width="1" opacity=".45"/></g>
+    <g class="fade" style="animation-delay:0.79s"><rect x="20" y="205" width="6" height="6" fill="#B4520A" opacity=".8"/><text class="mono" x="38" y="214" font-size="13" fill="#6B6255">Takipçi</text><text class="mono" x="470" y="214" font-size="13.5" font-weight="700" fill="#1A1712" text-anchor="end">6</text><line x1="38" y1="221" x2="470" y2="221" stroke="#1A1712" stroke-width="1" opacity=".45"/></g>
+</svg>

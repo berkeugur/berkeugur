@@ -1,0 +1,36 @@
+name: profil kartları
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  kartlar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # PROFILE_TOKEN yoksa adım atlanıyor: varsayılan GITHUB_TOKEN özel depo
+      # katkılarını göremiyor, çalıştırsak depodaki doğru sayıları düşük
+      # değerlerle ezerdi. read:user yetkili bir PAT'i PROFILE_TOKEN olarak ekle.
+      - name: Kartları üret
+        if: ${{ secrets.PROFILE_TOKEN != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: python3 scripts/gen_cards.py ${{ github.repository_owner }}
+
+      - name: Değişiklikleri gönder
+        if: ${{ secrets.PROFILE_TOKEN != '' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-*.svg assets/langs-*.svg
+          if git diff --quiet --cached; then
+            echo "değişiklik yok"
+          else
+            git commit -m "kartları güncelle [skip ci]"
+            git push
+          fi

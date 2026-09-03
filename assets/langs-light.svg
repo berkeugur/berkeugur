@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 226" width="500" height="226" role="img" aria-label="DİLLER">
+  <title>DİLLER</title>
+  <defs><style>
+    .mono { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .fade { opacity: 0; animation: fade .55s ease-out forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .fade { opacity: 1; animation: none; } }
+</style></defs>
+  <rect width="500" height="226" fill="#EDE6D8"/>
+  <rect x="6" y="6" width="490" height="216" fill="#1A1712"/>
+  <rect x="2" y="2" width="490" height="216" fill="#F6F1E6" stroke="#1A1712" stroke-width="1.25"/>
+  <rect x="2" y="2" width="490" height="28" fill="#E4DBC9"/>
+  <line x1="2" y1="30" x2="492" y2="30" stroke="#1A1712" stroke-width="1.25"/>
+  <rect x="20" y="12" width="8" height="8" fill="#B4520A"/>
+  <text class="mono" x="38" y="21" font-size="12" letter-spacing="2.4" fill="#B4520A">DİLLER</text>
+  <text class="mono" x="474" y="21" font-size="12" letter-spacing="1.6" fill="#6B6255" text-anchor="end">03</text>
+    <rect x="20" y="60" width="450" height="14" fill="#DDD3BE"/>
+    <rect x="20.0" y="60" width="377.0" height="14" fill="#00B4AB"><animate attributeName="width" from="0" to="377.0" dur=".7s" begin="0.20s" fill="freeze"/></rect>
+    <rect x="397.0" y="60" width="51.1" height="14" fill="#3178c6"><animate attributeName="width" from="0" to="51.1" dur=".7s" begin="0.30s" fill="freeze"/></rect>
+    <rect x="448.1" y="60" width="8.1" height="14" fill="#f34b7d"><animate attributeName="width" from="0" to="8.1" dur=".7s" begin="0.40s" fill="freeze"/></rect>
+    <rect x="456.2" y="60" width="6.5" height="14" fill="#DA3434"><animate attributeName="width" from="0" to="6.5" dur=".7s" begin="0.50s" fill="freeze"/></rect>
+    <rect x="462.7" y="60" width="5.0" height="14" fill="#fcb32c"><animate attributeName="width" from="0" to="5.0" dur=".7s" begin="0.60s" fill="freeze"/></rect>
+    <rect x="467.7" y="60" width="1.1" height="14" fill="#701516"><animate attributeName="width" from="0" to="1.1" dur=".7s" begin="0.70s" fill="freeze"/></rect>
+    <rect x="468.9" y="60" width="1.1" height="14" fill="#e34c26"><animate attributeName="width" from="0" to="1.1" dur=".7s" begin="0.80s" fill="freeze"/></rect>
+    <rect x="20" y="60" width="450" height="14" fill="none" stroke="#1A1712" stroke-width="1"/>
+    <g class="fade" style="animation-delay:0.50s"><rect x="20" y="95" width="9" height="9" fill="#00B4AB"/><text class="mono" x="36" y="104" font-size="12.5" fill="#1A1712">Dart</text><text class="mono" x="230" y="104" font-size="12" fill="#6B6255" text-anchor="end">83.8%</text></g>
+    <g class="fade" style="animation-delay:0.57s"><rect x="252" y="95" width="9" height="9" fill="#3178c6"/><text class="mono" x="268" y="104" font-size="12.5" fill="#1A1712">TypeScript</text><text class="mono" x="462" y="104" font-size="12" fill="#6B6255" text-anchor="end">11.4%</text></g>
+    <g class="fade" style="animation-delay:0.64s"><rect x="20" y="119" width="9" height="9" fill="#f34b7d"/><text class="mono" x="36" y="128" font-size="12.5" fill="#1A1712">C++</text><text class="mono" x="230" y="128" font-size="12" fill="#6B6255" text-anchor="end">1.8%</text></g>
+    <g class="fade" style="animation-delay:0.71s"><rect x="252" y="119" width="9" height="9" fill="#DA3434"/><text class="mono" x="268" y="128" font-size="12.5" fill="#1A1712">CMake</text><text class="mono" x="462" y="128" font-size="12" fill="#6B6255" text-anchor="end">1.4%</text></g>
+    <g class="fade" style="animation-delay:0.78s"><rect x="20" y="143" width="9" height="9" fill="#fcb32c"/><text class="mono" x="36" y="152" font-size="12.5" fill="#1A1712">MDX</text><text class="mono" x="230" y="152" font-size="12" fill="#6B6255" text-anchor="end">1.1%</text></g>
+    <g class="fade" style="animation-delay:0.85s"><rect x="252" y="143" width="9" height="9" fill="#701516"/><text class="mono" x="268" y="152" font-size="12.5" fill="#1A1712">Ruby</text><text class="mono" x="462" y="152" font-size="12" fill="#6B6255" text-anchor="end">0.3%</text></g>
+    <g class="fade" style="animation-delay:0.92s"><rect x="20" y="167" width="9" height="9" fill="#e34c26"/><text class="mono" x="36" y="176" font-size="12.5" fill="#1A1712">HTML</text><text class="mono" x="230" y="176" font-size="12" fill="#6B6255" text-anchor="end">0.2%</text></g>
+</svg>
